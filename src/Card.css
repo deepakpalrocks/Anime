@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
+
+.button
+{
+    border: none;
+    padding: 10px;
+    background-color: rgb(255, 187, 0);
+    box-shadow: 2px 2px 2px white;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    margin: 5px;
+    font-size: larger;
+    color: white;
+
+    /* transition: box-shadow 0.4s ease-in-out 0.8s; */
+    /* transition: transform 0.3s ease-out; */
+    /* transition: background-color 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) ; */
+    /* transition-timing-function:; */
+}
+.button:hover
+{   
+    cursor: pointer;
+    /* background-color: rgb(255, 255, 255); */
+    /* box-shadow: 5px 5px 10px rgb(187, 137, 137); */
+    /* transform: rotate(360deg); */
+    color: rgb(255, 187, 0);
+    border: 2px solid rgb(255, 187, 0);
+    animation: cc 0.1s forwards 0s  ease-in;
+}
+@keyframes cc
+{
+    0%
+    {
+        background-color: rgb(255, 187, 0);
+        /* color: rgb(255, 187, 0); */
+    }
+    25%
+    {
+        background-image: linear-gradient(to right,white 25%,rgb(255, 187, 0) 75%);
+    }
+    50%
+    {
+        background-image: linear-gradient(to right,white 50%,rgb(255, 187, 0) 50%);
+    }
+    75%
+    {
+        background-image: linear-gradient(to right,white 75%,rgb(255, 187, 0) 25%);
+    }
+    100%
+    {
+        background-image: linear-gradient(to right,white 100%,rgb(255, 187, 0) 0%);
+    }
+}
+.animeimg
+{
+    width: 44vh;
+    height:30vh;
+}
+.Card
+{
+    color:black;
+    width:44vh;
+    margin: 2.5em;
+    text-align:center;
+    font-size:larger;
+    background-color:rgb(255, 255, 255);
+    /* border-radius:25px; */
+    overflow:hidden;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.123);
+    min-height: 60vh;
+    transition: all 0.15s ease-out;
+    cursor: pointer;
+}
+.Card p
+{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: larger;
+    color: rgb(94, 94, 93);
+    padding: 15px;
+}
+.Card:hover
+{
+    transform: scale(1.02);
+    box-shadow: 35px 35px 45px rgba(0, 0, 0, 0.356);
+
+}
+/* .hov:hover .button
+{
+    transform: rotate(360deg);
+} */
+.hov{
+    /* padding: 5px; */
+    display: inline-block;
+    /* border: 2px solid rgb(0, 0, 0); */
+}
+

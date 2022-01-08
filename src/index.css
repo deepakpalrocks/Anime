@@ -1,0 +1,57 @@
+html{
+    font-size: 62.5%;  
+}
+*
+{
+    box-sizing: border-box; 
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    /* background-color: black; */
+    
+
+}
+.heading
+{
+    text-align: center;
+    font-size: 2em;
+    background-color: rgb(255, 255, 255);
+    padding: 1em;
+    /* margin: 0px 5px; */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.178);
+    color: white;
+    text-shadow: 0px 4px 10px  rgba(0, 0, 0, 0.685);
+    /* cursor: pointer; */
+    position: sticky;
+    display: block;
+    top:0px;
+    left: 0px;
+    width:100%;
+    z-index: 10;
+    
+}
+.Cards
+{
+    display: flex;
+    margin: 1vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* justify-content: space-evenly; */
+}
+img
+{
+    display: block;
+    max-width: 100%;
+}
+.bgvdo{
+    position: fixed;
+    /* top:5vh; */
+    z-index: -1;
+    width: 100%;
+}
+.all
+{
+background-color: rgb(215, 231, 255);
+}
+
